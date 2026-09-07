@@ -11,8 +11,11 @@ class LaravelKlaviyoServiceProvider extends PackageServiceProvider
     {
         $package
             ->name('laravel-klaviyo')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigrations();
+            ->hasConfigFile();
+    }
+
+    public function packageRegistered(): void
+    {
+        $this->app->singleton('laravel-klaviyo', fn () => new LaravelKlaviyo);
     }
 }
