@@ -1,10 +1,6 @@
-<div class="filament-hidden">
+![Laravel Klaviyo](banners/laravel-klaviyo.png)
 
-<!-- banner: art/jeffersongoncalves-laravel-klaviyo.png (generate via portfolio-banner skill) -->
-
-</div>
-
-# LaravelKlaviyo
+# Laravel Klaviyo
 
 Laravel integration for the Klaviyo API
 
